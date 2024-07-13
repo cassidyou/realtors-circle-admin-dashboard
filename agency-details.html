@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencies - Realtors Circle</title>
+
+    <!--asset-->
+    <link rel="shortcut icon" type="text/css" href="asset/img/logo.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://preview.colorlib.com/theme/bootstrap/css-table-19/css/style.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="vendor/fontawesome/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendor/datatables/css/jquery.dataTables.min.css">
+
+    <!-- Bootstrap daterangepicker -->
+    <link rel="stylesheet" href="vendor/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+    <!--Custom CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+
+<body>
+    <div class="page-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 sidebar">
+                    <div class="sidebar-header">
+                        <div class="sidebar-close d-lg-none"></div>
+                        <div class="logo-ctn">
+                            <img src="asset/img/logo.png" class="img-fluid mb-2 sidebar-logo" alt="">
+                            <div>
+                                <h3 class="logo-text">Realtors</h3>
+                                <h3 class="logo-text">Circle</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-content">
+                        <ul class="sidebar-nav-links">
+                            <li class="adm-sidebar-link-item">
+                                <a href="index.html" class="sidebar-link ">
+                                    <img src="asset/img/icons/dashboard-img.png" alt="">
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="adm-sidebar-link-item">
+                                <a href="users.html" class="sidebar-link">
+                                    <img src="asset/img/icons/users-icon.png" alt="">
+                                    Users
+                                </a>
+                            </li>
+                            <li class="adm-sidebar-link-item">
+                                <a href="agencies.html" class="sidebar-link active">
+                                    <img src="asset/img/icons/agency-icon.png" alt="">
+                                    Agencies
+                                </a>
+                            </li>
+                            <li class="adm-sidebar-link-item">
+                                <a href="broadcast-message.html" class="sidebar-link">
+                                    <img src="asset/img/icons/broadcast-message-icon.png" alt="">
+                                    Broadcast Message
+                                </a>
+                            </li>
+                            <li class="adm-sidebar-link-item">
+                                <a href="contact-us.html" class="sidebar-link">
+                                    <img src="asset/img/icons/contact-icon.png" alt="">
+                                    Contact Us
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="sidebar-footer">
+                            <a href="profile.html" class="sidebar-link mb-5">
+                                <img src="asset/img/icons/setting-icon-light.png" alt="">
+                                Settings
+                            </a>
+                            <a href="javascript:;" class="sidebar-link mb-5">
+                                <img src="asset/img/icons/logout.png" alt="">
+                                Logout
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 main">
+                    <div class="container-fluid px-4">
+                        <div class="main-header">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="menu harmburger-menu d-lg-none">
+                                    <div class="menu"></div>
+                                </div>
+                                <h1 class="heading">Agency Details</h1>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+
+                                <div class="profile-dropdown">
+                                    <div class="drop-now d-flex align-items-center justify-content-between gap-4">
+                                        <div class="d-flex align-items-center align-items-start gap-3">
+                                            <div class="img">
+                                                M
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <span class="name">Michael Charsac</span>
+                                                <span class="role">Admin</span>
+                                            </div>
+                                        </div>
+                                        <div class="directions close">
+                                            <i class="fa fa-chevron-down"></i>
+                                            <i class="fa fa-chevron-up"></i>
+                                        </div>
+                                    </div>
+                                    <ul class="profile-dropdown-items profile-items d-none">
+                                        <li class="dropdown-item">
+                                            <a href="profile.html">
+                                                <img src="asset/img/icons/user-icon-dark.png" class="img-fluid"
+                                                    alt="icon">Profile</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="javascript:;">
+                                                <img src="asset/img/icons/login-icon.png" class="img-fluid"
+                                                    alt="icon">Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-content">
+                         <div class="container">
+                              <form action="">
+                                   <div class="row mt-4">
+                                        <div class="col-sm-6 mb-4">
+                                             <div class="form-group">
+                                                  <h6>Agency Name</h6>
+                                                  <input type="text" value="John" name="" id="" class="form-control">
+                                             </div>
+                                        </div>
+                                        <div class="col-sm-6 mb-4">
+                                             <div class="form-group">
+                                                  <h6>Number of Realtors</h6>
+                                                  <input type="text" value="125" name="" id="" class="form-control">
+                                             </div>
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                             <div class="form-group">
+                                                  <h6>Email Address</h6>
+                                                  <input type="text" value="john@gmail.com" name="" id="" class="form-control">
+                                             </div>
+                                        </div>
+                                        <div class="hr-dashed-line my-5"></div>
+                                        <div class="col-sm-12 mb-5">
+                                             <textarea name="" class="form-control" rows="8" placeholder="Type here..." id=""></textarea>
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                             <button data-bs-toggle="modal" data-bs-target="#successModal" type="button" id="genpswd" class="new-discussion-btn btn-success w-100">Send Mail</button>
+                                        </div>
+                                   </div>
+                              </form>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-sm modal-dialog-centered">
+          <div class="modal-content">
+               <div class="modal-body rounded">
+                 <div class="d-flex align-items-center justify-content-center mb-2 mt-3">
+                     <img src="asset/img/icons/verify-icon.png" width="70px" alt="icon">
+                 </div>
+                    <h3 class="text-center mb-2">Success!</h3>
+                   <div class="text-center mb-4">
+                     Email sent.
+                   </div>
+                     <a href="agencies.html" type="button" class="new-discussion-btn btn-success w-100 mb-2"><i class="fa fa-arrow-left"></i> Go back home</a>
+               </div>
+          </div>
+     </div>
+ </div>
+
+
+
+    <!-- JS FILES -->
+    <script src="vendor/jquery/jQuery3.6.1.min.js"></script>
+    <script src="vendor/popper/popper.js"></script>
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="vendor/fontawesome/all.min.js"></script>
+    <script src="vendor/jquery-validate/jquery.validate.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/moment/moment.min.js"></script>
+    <script src="vendor/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="asset/js/dashboard.js"></script>
+    <script src="asset/js/plugins_init.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html>
